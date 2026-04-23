@@ -14,6 +14,9 @@ export default function Header() {
         {/* Desktop nav */}
         <nav className="hidden md:flex items-center gap-6">
           <Link to="/" className="text-sm font-medium text-foreground/80 hover:text-primary transition-colors">Home</Link>
+          <Link to="/about" className="text-sm font-medium text-foreground/80 hover:text-primary transition-colors">About</Link>
+          <Link to="/services" className="text-sm font-medium text-foreground/80 hover:text-primary transition-colors">Services</Link>
+          <Link to="/contact" className="text-sm font-medium text-foreground/80 hover:text-primary transition-colors">Contact</Link>
         </nav>
 
         {/* Mobile menu */}
@@ -29,6 +32,9 @@ export default function Header() {
             </SheetHeader>
             <nav className="mt-6 flex flex-col space-y-1">
               <Link to="/" className="block px-3 py-2 text-base font-medium text-foreground/80 hover:text-primary transition-colors">Home</Link>
+              <Link to="/about" className="block px-3 py-2 text-base font-medium text-foreground/80 hover:text-primary transition-colors">About</Link>
+              <Link to="/services" className="block px-3 py-2 text-base font-medium text-foreground/80 hover:text-primary transition-colors">Services</Link>
+              <Link to="/contact" className="block px-3 py-2 text-base font-medium text-foreground/80 hover:text-primary transition-colors">Contact</Link>
             </nav>
           </SheetContent>
         </Sheet>

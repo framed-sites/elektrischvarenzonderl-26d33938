@@ -1,5 +1,5 @@
 import { useEffect } from 'react'
-import { Globe, Rocket, Shield, Sparkles, Star, Zap } from 'lucide-react'
+import { Globe, Shield, Sparkles, Star, Zap } from 'lucide-react'
 import { Button } from '../components/ui/button'
 import { Card, CardContent, CardHeader, CardTitle } from '../components/ui/card'
 import { ScrollReveal } from '../components/ui/scroll-reveal'
@@ -55,10 +55,10 @@ function FeaturesSection1() {
               <div className="w-14 h-14 rounded-xl bg-gradient-to-br from-primary/15 to-primary/5 flex items-center justify-center mb-2 group-hover:from-primary/25 group-hover:to-primary/10 transition-colors duration-300">
                 <Zap className="w-7 h-7 text-primary" />
               </div>
-              <CardTitle className="text-lg">Strategic Consulting</CardTitle>
+              <CardTitle className="text-lg">Professional</CardTitle>
             </CardHeader>
             <CardContent>
-              <p className="text-sm text-muted-foreground leading-relaxed">Data-driven roadmaps tailored to your unique business challenges and growth opportunities</p>
+              <p className="text-sm text-muted-foreground leading-relaxed">Years of experience and proven expertise</p>
             </CardContent>
           </Card>
           <Card className="group bg-card border shadow-sm hover:shadow-lg hover:-translate-y-1 hover:border-t-2 hover:border-t-primary transition-all duration-300">
@@ -66,10 +66,10 @@ function FeaturesSection1() {
               <div className="w-14 h-14 rounded-xl bg-gradient-to-br from-primary/15 to-primary/5 flex items-center justify-center mb-2 group-hover:from-primary/25 group-hover:to-primary/10 transition-colors duration-300">
                 <Shield className="w-7 h-7 text-primary" />
               </div>
-              <CardTitle className="text-lg">Digital Transformation</CardTitle>
+              <CardTitle className="text-lg">Reliable</CardTitle>
             </CardHeader>
             <CardContent>
-              <p className="text-sm text-muted-foreground leading-relaxed">Seamless integration of cutting-edge technologies to modernize your operational infrastructure</p>
+              <p className="text-sm text-muted-foreground leading-relaxed">You can always count on us</p>
             </CardContent>
           </Card>
           <Card className="group bg-card border shadow-sm hover:shadow-lg hover:-translate-y-1 hover:border-t-2 hover:border-t-primary transition-all duration-300">
@@ -77,10 +77,10 @@ function FeaturesSection1() {
               <div className="w-14 h-14 rounded-xl bg-gradient-to-br from-primary/15 to-primary/5 flex items-center justify-center mb-2 group-hover:from-primary/25 group-hover:to-primary/10 transition-colors duration-300">
                 <Globe className="w-7 h-7 text-primary" />
               </div>
-              <CardTitle className="text-lg">Customer Experience Design</CardTitle>
+              <CardTitle className="text-lg">Innovative</CardTitle>
             </CardHeader>
             <CardContent>
-              <p className="text-sm text-muted-foreground leading-relaxed">Human-centered solutions that create meaningful interactions and lasting brand loyalty</p>
+              <p className="text-sm text-muted-foreground leading-relaxed">Always looking for the best solutions</p>
             </CardContent>
           </Card>
           <Card className="group bg-card border shadow-sm hover:shadow-lg hover:-translate-y-1 hover:border-t-2 hover:border-t-primary transition-all duration-300">
@@ -88,21 +88,10 @@ function FeaturesSection1() {
               <div className="w-14 h-14 rounded-xl bg-gradient-to-br from-primary/15 to-primary/5 flex items-center justify-center mb-2 group-hover:from-primary/25 group-hover:to-primary/10 transition-colors duration-300">
                 <Sparkles className="w-7 h-7 text-primary" />
               </div>
-              <CardTitle className="text-lg">Performance Analytics</CardTitle>
+              <CardTitle className="text-lg">Personal</CardTitle>
             </CardHeader>
             <CardContent>
-              <p className="text-sm text-muted-foreground leading-relaxed">Real-time insights and actionable metrics to optimize decision-making processes</p>
-            </CardContent>
-          </Card>
-          <Card className="group bg-card border shadow-sm hover:shadow-lg hover:-translate-y-1 hover:border-t-2 hover:border-t-primary transition-all duration-300">
-            <CardHeader>
-              <div className="w-14 h-14 rounded-xl bg-gradient-to-br from-primary/15 to-primary/5 flex items-center justify-center mb-2 group-hover:from-primary/25 group-hover:to-primary/10 transition-colors duration-300">
-                <Rocket className="w-7 h-7 text-primary" />
-              </div>
-              <CardTitle className="text-lg">Agile Development</CardTitle>
-            </CardHeader>
-            <CardContent>
-              <p className="text-sm text-muted-foreground leading-relaxed">Rapid prototyping and iterative builds for scalable, future-proof digital products</p>
+              <p className="text-sm text-muted-foreground leading-relaxed">Custom solutions for every client</p>
             </CardContent>
           </Card>
         </div>
@@ -154,14 +143,14 @@ function TestimonialsSection3() {
                   <Star key={i} className="w-4 h-4 fill-primary text-primary" />
                 ))}
               </div>
-              <p className="text-muted-foreground italic -mt-1 leading-relaxed">Their strategic guidance helped us increase customer retention by 47% in just eight months. The team operates like true business partners.</p>
+              <p className="text-muted-foreground italic -mt-1 leading-relaxed">Excellent service and professionalism. Very satisfied with the result!</p>
               <div className="flex items-center gap-3 pt-3 border-t border-border">
                 <div className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center text-primary font-semibold text-sm ring-2 ring-primary/20">
-                  E
+                  A
                 </div>
                 <div>
-                  <p className="font-semibold text-sm text-foreground">Elena Rodriguez</p>
-                  <p className="text-xs text-muted-foreground">Chief Operating Officer, TechGlobal Inc.</p>
+                  <p className="font-semibold text-sm text-foreground">Anna Johnson</p>
+                  <p className="text-xs text-muted-foreground">Client</p>
                 </div>
               </div>
             </CardContent>
@@ -174,14 +163,14 @@ function TestimonialsSection3() {
                   <Star key={i} className="w-4 h-4 fill-primary text-primary" />
                 ))}
               </div>
-              <p className="text-muted-foreground italic -mt-1 leading-relaxed">The digital transformation project was executed flawlessly despite complex legacy system challenges. Their expertise saved us over $2M in potential revenue loss.</p>
+              <p className="text-muted-foreground italic -mt-1 leading-relaxed">Fast communication and great results. Absolutely recommended!</p>
               <div className="flex items-center gap-3 pt-3 border-t border-border">
                 <div className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center text-primary font-semibold text-sm ring-2 ring-primary/20">
-                  D
+                  P
                 </div>
                 <div>
-                  <p className="font-semibold text-sm text-foreground">David Chen</p>
-                  <p className="text-xs text-muted-foreground">VP of Innovation, Summit Enterprises</p>
+                  <p className="font-semibold text-sm text-foreground">Peter Davis</p>
+                  <p className="text-xs text-muted-foreground">Client</p>
                 </div>
               </div>
             </CardContent>
@@ -194,14 +183,14 @@ function TestimonialsSection3() {
                   <Star key={i} className="w-4 h-4 fill-primary text-primary" />
                 ))}
               </div>
-              <p className="text-muted-foreground italic -mt-1 leading-relaxed">Working with them felt like having an internal innovation lab. Our user engagement metrics doubled after implementing their UX recommendations.</p>
+              <p className="text-muted-foreground italic -mt-1 leading-relaxed">Fantastic experience from start to finish. Will definitely return.</p>
               <div className="flex items-center gap-3 pt-3 border-t border-border">
                 <div className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center text-primary font-semibold text-sm ring-2 ring-primary/20">
-                  S
+                  M
                 </div>
                 <div>
-                  <p className="font-semibold text-sm text-foreground">Sophie Laurent</p>
-                  <p className="text-xs text-muted-foreground">Head of Digital Strategy, Nexus Retail Group</p>
+                  <p className="font-semibold text-sm text-foreground">Maria Wilson</p>
+                  <p className="text-xs text-muted-foreground">Client</p>
                 </div>
               </div>
             </CardContent>

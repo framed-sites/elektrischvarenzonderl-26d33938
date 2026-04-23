@@ -14,6 +14,10 @@ export default function Footer() {
             </p>
           </div>
 
+          <nav className="flex items-center gap-4">
+            <Link to="/contact" className="text-sm text-muted-foreground hover:text-foreground transition-colors">Contact</Link>
+            <Link to="/privacy" className="text-sm text-muted-foreground hover:text-foreground transition-colors">Privacy Policy</Link>
+          </nav>
         </div>
       </div>
     </footer>
